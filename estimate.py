@@ -22,8 +22,8 @@ def monte_carlo(n):
             circle_points+=1
   
         
-        pi = 4* circle_points/n
-        return (pi)
+    return(4* circle_points/n)
+        
 
 class TestWallis(unittest.TestCase):
     def test_low_iters(self):
